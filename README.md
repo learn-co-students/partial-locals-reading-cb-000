@@ -1,4 +1,4 @@
-# Partials with Locals 
+# Partials with Locals
 
 ## Objectives
 1. Use the locals keyword
@@ -13,7 +13,7 @@ In the following example, we'll unpack exactly what locals are and how they're u
 
 ## Lesson
 
-Take a look at the included repo.  You should notice the same piece of view code in a few places.
+Take a look at the included repo.  You should notice the same piece of view code in a few places. 
 
 ```erb
 <ul>
