@@ -1,8 +1,8 @@
-<%= @posts.each do |post| %>
+<%= @posts.each do |posts| %>
 <ul>
-  <li> <%= post.author.name %></li>
-  <li> <%= post.author.hometown %></li>
+  <li> <%= posts.author.name %></li>
+  <li> <%= posts.author.hometown %></li>
 </ul>
-  <%= post.title %>
-  <%= post.content %>
+  <%= posts.title %>
+  <%= posts.content %>
 <% end %>
