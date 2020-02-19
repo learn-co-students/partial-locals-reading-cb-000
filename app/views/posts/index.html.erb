@@ -1,8 +1,13 @@
 <% @posts.each do |post| %>
-<ul>
-  <li> <%= post.author.name %></li>
-  <li> <%= post.author.hometown %></li>
-</ul>
+<%= render partial: 'authors/author', locals: {post_author: post.author} %>
+
+<!-- I think but I'm not sure the above replaces the below -->
+<!-- <ul>
+  <li> <%=# post.author.name %></li>
+  <li> <%=# post.author.hometown %></li>
+</ul> -->
+<!-- YES I got all four view done correctly as per posted solution (hey, no tests for this lesson) -->
+
   <%= post.title %>
   <%= post.content %>
 <% end %>
